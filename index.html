@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Apex - Professional Web & Ad Services</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- This div will hold the Vanta.js animation -->
+    <div id="vanta-background"></div>
+
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">Master Apex<span class="logo-dot">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#process">Our Process</a></li>
+                <li><a href="#portfolio">Our Work</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="consultation.html" class="cta-button">Get Started</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="content-wrapper">
+        <section class="hero">
+            <div class="container text-center">
+                <h1 class="fade-in-up">Elevate Your Digital Presence. Master Your Market.</h1>
+                <p class="fade-in-up delay-1">We craft high-performance websites and execute data-driven ad campaigns that drive real growth for your business.</p>
+                <a href="consultation.html" class="cta-button fade-in-up delay-2">Get a Free Consultation <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </section>
+
+        <section class="client-logos">
+            <div class="container text-center">
+                <h5 class="reveal">Trusted by Businesses in Indore and Across India</h5>
+                <div class="logo-carousel reveal delay-1" style="display: flex; width: fit-content;">
+                    <div class="logo-slide" style="display: flex; align-items: center; justify-content: space-around; gap: 70px; padding: 0 35px;">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjciIGhlaWdodD0iMjguMyIgdmlld0JveD0iMCAwIDEyNyAyOC4zIj48cGF0aCBkPSJNMzMuMSAxMy4xdi0uN0gzMS43djFsMS40LS4zem0xLjIgMS4ydi0xLjZoMi4zYzEuNSAwIDEuNSAxLjYgMCAxLjZoLTIuM3ptMCAuN2gyLjNjMi4xIDAgMi4xLTIuMyAwLTIuM2gtMi4zeiBNMjMuMSAxMC43bDIuMSAzLjEtMy40IDQuOGgtMS4zbDMuMS00LjQtMi45LTMuN2gxLjR6bTUgMS4zYy0uMi0uNS0uNy0uNy0xLjItLjdoLTIuNHY1aDIuNGMuNSAwIDEuMS0uMiAxLjItLjdsLjEtLjVjLjEtLjQuMS0xLjEgMC0xLjVsLS4xLS41em0tMy41IDIuNVYxMWgyLjFjLjIgMCAuMyAwIC40LjFsLjQuNWMuMy42LjMgMS43IDAgMi4zbC0uNC41Yy0uMSAwLS4yLjEtLjQuMWgtMi4xem0xMS4zLTMuNEgxMS40VjBIMTB2MjguM2gxLjRWMThoMjEuN3YxMC4zaDEuNFYwaC0xLjR2MTEuOXptMTMuMyA1LjRoLTEuNHYtMS45aC00LjV2MS45aC0xLjRWMTBoMS40djQuOWg0LjVWMTAgaDEuNHY3LjN6bTMuNiAwaC0xLjR2LTQuM2gtMy4xdi0xLjZoMy4xVjEwIGgxLjR2Ny4zem03LjggMGgtMS40VjEwaDEuNHY3LjN6bTQuMSAwaC0xLjRWMTAgaDEuNHY3LjN6bTUuMiAwdi0xLjZoLTMuM3YtMy45aDMuNFYxMGgtNC44djcuM2g0Ljd6bTYuMy0xLjFsLTEuNC0yLjFoLTIuNmwtMS40IDIuMWgtMS41bDQuMS03LjNoMS41bDQuMSA3LjNoLTEuNXptLTMuOC0yLjloMi4zbC0xLjEtMS44LTEuMiAxLjh6bTEzLjYgMS4xaC0xLjRWMTAgaDEuNHY3LjN6bS0yNS4xNy03aDQuMnYxLjZoLTQuMlYxMHoiPjwvcGF0aD48cGF0aCBkPSJNMTYuNSAyOC4zTDAgMGgxMC41bDEzLjggMjIuNUwyOC41IDBIMzloLTEuNEwyOC4zIDEwLjIgMTYuNSAyOC4zeiI+PC9wYXRoPjwvc3ZnPg==" alt="Infosys Logo" style="height: 28px;">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MCA0MCI+PHBhdGggZmlsbD0iI0UwNDEzMCIgZD0iTTIwIDQwQzguOTU0IDQwIDAgMzEuMDQ2IDAgMjBTOC45NTQgMCAyMCAwczIwIDguOTU0IDIwIDIwLTguOTU0IDQwLTIwIDQweiIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ0iTTIwLjE0NyA5LjY5NWMtMy41MiAwLTUuODQ3IDEuNDQzLTcuMTgzIDQuMzY3YTUuMzUgNS4zNSAwIDAgMC0uMDM0IDUuMmMxLjAyIDIuMjMyIDMuMjQ2IDQuMzI4IDcuMDc4IDQuMzI4IDIuNDg3IDAgNC4yMzMtLjc1MiA1LjgyNC0yLjE5NmwtMi4wNDMtMi41MjhjLS45OTYuOTkxLTEuODQ1IDEuMjM0LTMuNTUgMS4yMzQtMi4xMiAwLTMuNTgtMS4yNzQtMy45Ni0zLjMyMmg5LjM5OGMuMDQtLjM5OC4wNi0xLjExNS4wNi0xLjQ0MiAwLTQuMjg0LTIuODg2LTcuMzQ1LDUuNzAyLTcuMzQ1em0wIDEuMzU0LjAwMmMxLjg2NiAwIDIuOTgyIDEuNzE1IDIuOTgyIDMuOTgxaC02LjExNGMuNDQxLTIuMTkzIDEuNzYzLTMuOTgxIDMuMTMtMy45ODF6bS04LjYyNCAxMS40ODJoMTcuMzQ0VjI1LjdoLTguNjcydjQuMDYySDExLjUyM3YtMy4zOTZ6Ii8+PC9zdmc+" alt="Airtel Logo" style="height: 50px;">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTYgNzEuNSI+PHBhdGggZmlsbD0iIzAwYjNmYyIgZD0iTTIxNC45IDM5LjloLTEzLjVsLTE3LjEgMjdoMjYuM2wtMi4xIDQuNmgtMzQuN2wxOS4yLTMwLjdjMTkuNS0zMS4xLTIuNy0zOS45LTIuNy0zOS45bC0xNC4yIDYuN2MyLjYgNC4zIDEuMiA4LjQtMi4xIDEyLjhsLTE3LjIgMjcuMUgxNTVsMi4yLTQuNmgyMi45bDEzLjYtMjEuN2MwLTMuNS0xLjEtOC44LTYuOC0xMS4zLTYuNS0yLjktMTMuMS0xLjMtMTYuMy43bC0zLjcgMS45TDExOC43IDBIMTUwbDEwLjMgMTYuNWM0LjktOC4yIDEzLjUtMTIuMyAxOS40LTEwLjYgNS4xIDEuNSA3LjUgNS41IDguNyA4LjQgMCAwLTExLjIgMy4xLTExLjYgMi4yLTEuMy0yLjktMy43LTQuMi01LjktNS00LjQtMS41LTkuNS45LTEyLjMgNS44bC0xMCAxNS45IDEyLjMgMTkuN2MxLjggMi44IDQuOSA0LjYgOC4xIDQuNiA1ICEuMSAxMy4xLTIuOCAxMy4xLTExLjIgMC0yLjItLjUtNC4zLTEuNC02LjFsLTIuMS00LjVoMTQuM2wxLjkgNC42em0yNC42LTIzLjJoMTQuM2w4LjQgMTMuNEgyNTFsMy4zIDYuOGgtMzQuNWwtMTcuMS0yNy4xaDE2LjhsMTMuMiAyMC4yem0tMjIxLjYgMGgxMy45djI3LjJIMTdoMjEuNHY0LjZIMTd6Ii8+PHBhdGggZmlsbD0iI0YwNTQ1NyIgZD0iTTg4LjcyIDE4LjVMNTQuOTg2IDc1LjZIMzIuMjNsLTIuMTkyIDQuNmgzMC45MTZsMzYuNjEzLTYyIDg4LjA4MiA2MmgyMS44OTRsMi4yLTIuMkgxODMuMDM2TDk3LjUgMHoiLz48L3N2Zz4=" alt="Paytm Logo" style="height: 50px;">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyOTYgODIiPjxwYXRoIGQ9Ik0zMy4yIDgyYy0xMS45IDAtMjAuOS01LTI3LjYtMTQuOUwyMy4zIDYyYzQuOSA3LjkgMTEuMyAxMS45IDE4LjEgMTEuOSAxMi4zIDAgMTkuNC02LjIgMTkuNC0xNi41IDAtMTEuMS03LjktMTgtMjQtMThoLTYuNHYtOWgxMC4xYzguMiAwIDE0LTUgMTQtMTIgMC02LjYtNC4yLTEwLjYtMTEuMy0xMC42LTUuMSAwLTguNyAyLjItMTEuNSA2LjZsLTE1LjktNC4yQzEzLjcgMS40IDI0LjEgMCAzNS42IDBjMTMuOCAwIDI0LjMgNy4xIDI0LjMgMTguMSAwIDguOS01LjkgMTQuNC0xNS41IDE2LjQgOS41IDEuOCAxNy4xIDguMSAxNy4xIDIwLjEgMCAxMy4zLTExLjQgMjEuNC0yOC4zIDIxLjR6bTUwLjYtNjguMWwtMjQgNjcuNWgtMTBsMjQtNjcuNWgxMHptMzQuMiA2Ny41Yy0xMS4yIDAtMjEuNS03LjMtMjEuNS0yNC45IDAtMTguMSA5LjUtMjUuOCAyMy4xLTI1LjggOC4xIDAgMTQuNCA0LjEgMTcuOSA5LjlsLTEwLjggNi42Yy0xLjQtMy4xLTQuNC01LjUtOC40LTUuNS02LjUgMC0xMS4yIDUuOC0xMS4yIDE1LjhzNS4zIDE2LjMgMTMuMSAxNi4zYzcuNiAwIDEyLjctNS43IDEzLjgtMTMuM2gxMS4zYy0xLjggMTMuNS0xMS4xIDIwLjktMjUuNCAyMC45em01Ni41LTMxLjdsLTkuMS0xMS4zYy00LTQuOS01LjgtNy45LTUuOC0xMi4zIDAtNS4xIDQtOC4yIDkuOC04LjIgNi4yIDAgOS43IDQgMTEuOSA3LjlsMTEuMi02LjJjLTMuOC01LjYtMTAuNS0xMC4yLTIzLjQtMTAuMi0xMy4zIDAtMjEuOCA3LjYtMjEuOCAxOC45IDAgOC4xIDUuMyAxMy41IDEyLjUgMjEuNWw3LjMgOC43LTExLjggMTQuM2gtMTUuMWwyMi0zMS4yIDIyLjcgMzEuMmgxMC43bC0yNC42LTM1em02MC42IDMxLjdoLTlsLTIwLjYtNjcuNWgxMGwyMC42IDY3LjV6bS0xOC45LTIzLjdjLTMuMy0uOS03LjItMS44LTcuMi00LjQgMC0xLjguOS0yLjggMy4yLTIuOCAyLjQgMCAzLjMuOSAzLjMgMi44bDEwLjItLjVjMC01LjctNC05LjYtMTMuNC05LjYtOC4xIDAtMTMuMyAzLjctMTMuMyA5LjUgMCA2LjggOC40IDEwLjYgMTUuMyAxMi41bDUuOCAxLjZjMi4xLjYgNS4xIDEuNSA1LjEgMy43IDAgMi42LTEuOSAzLjYtNC42IDMuNi0zLjMgMC01LjEtMS41LTUuNC00bC0xMC40LjljLjUgNy4yIDYuNCAxMS42IDE1LjkgMTEuNiA5LjcgMCAxNS43LTQuNCAxNS43LTEyLjEgMC04LjMtOC44LTEyLjUtMTUuNy0xNC40eiIgc3R5bGU9ImZpbGw6I2VkMTY1eiIvPjwvc3ZnPg==" alt="ICICI Bank Logo" style="height: 35px;">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCI+PHBhdGggZmlsbD0iIzAzYTllMyIgZD0iTTI0IDQwYzguODUgMCAxNi03LjE1IDE2LTE2UzMyLjg1IDggMjQgOCAxNiA3LjE1IDggMTYgMTUuMTUgNDAgMjQgNDB6Ii8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTI0IDExYTEzIDEzIDAgMSAwIDAgMjYgMTMgMTMgMCAwIDAgMC0yNnptMCAxN2E0IDQgMCAxIDEgMC04IDQgNCAwIDAgMSAwIDh6Ii8+PC9zdmc+" alt="State Bank of India Logo" style="height: 50px;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <div class="text-center">
+                     <h2 class="section-title reveal">Our Expertise. Your Growth.</h2>
+                </div>
+                <div class="service-grid">
+                    <div class="service-card reveal">
+                        <i class="fas fa-desktop icon-large"></i>
+                        <h3>Web Design & Development</h3>
+                        <p>Stunning, responsive websites tailored to your brand, built for performance and user experience.</p>
+                        <a href="web-design.html" class="learn-more">Learn More <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                    <div class="service-card reveal delay-1">
+                        <i class="fas fa-bullhorn icon-large"></i>
+                        <h3>Digital Advertising Campaigns</h3>
+                        <p>Precise Google Ads, Social Media Ads, and PPC strategies to reach your ideal customers and maximize ROI.</p>
+                        <a href="digital-advertising.html" class="learn-more">Learn More <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                    <div class="service-card reveal delay-2">
+                        <i class="fas fa-chart-line icon-large"></i>
+                        <h3>Search Engine Optimization</h3>
+                        <p>Boost your organic rankings, drive targeted traffic, and establish authority in your niche.</p>
+                        <a href="seo-services.html" class="learn-more">Learn More <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="process" class="process">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-title reveal">Our Path to Your Success</h2>
+                </div>
+                <div class="process-timeline">
+                    <div class="process-step reveal">
+                        <div class="process-icon"><i class="fas fa-search"></i></div>
+                        <h3>1. Discovery & Strategy</h3>
+                        <p>We begin by diving deep into your business, goals, and target audience to create a tailored, data-driven strategy for success.</p>
+                    </div>
+                    <div class="process-step reveal delay-1">
+                        <div class="process-icon"><i class="fas fa-pencil-ruler"></i></div>
+                        <h3>2. Design & Prototyping</h3>
+                        <p>Our creative team designs a stunning, user-friendly interface that reflects your brand and engages your customers from the first click.</p>
+                    </div>
+                    <div class="process-step reveal delay-2">
+                        <div class="process-icon"><i class="fas fa-code"></i></div>
+                        <h3>3. Development & Launch</h3>
+                        <p>Our expert developers bring the designs to life with clean, efficient code, ensuring a flawless launch on all devices.</p>
+                    </div>
+                    <div class="process-step reveal delay-3">
+                        <div class="process-icon"><i class="fas fa-rocket"></i></div>
+                        <h3>4. Growth & Support</h3>
+                        <p>After launch, we provide ongoing support and analysis to ensure your digital presence continues to grow and deliver results.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-title reveal">Projects That Speak for Themselves</h2>
+                </div>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item reveal">
+                        <img src="showcase1.jpg" alt="E-commerce Website">
+                        <div class="overlay">
+                            <h3>E-commerce Solutions</h3>
+                            <p>Designed a high-converting online store for a leading fashion brand.</p>
+                            <a href="ecommerce-solutions.html" class="view-project">View Project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-item reveal delay-1">
+                        <img src="showcase2.jpg" alt="Local Business Website">
+                         <div class="overlay">
+                            <h3>Local Business Presence</h3>
+                            <p>Developed a lead-generation website for a service-based business.</p>
+                            <a href="local-business.html" class="view-project">View Project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-item reveal delay-2">
+                        <img src="showcase3.jpg" alt="Digital Marketing Campaign">
+                            <div class="overlay">
+                            <h3>Targeted Ad Campaigns</h3>
+                            <p>Increased conversions by 40% with strategic PPC ads.</p>
+                            <a href="digital-marketing-campaign.html" class="view-project">View Project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                     <a href="#" class="cta-button reveal delay-3">View All Projects <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="pricing" class="pricing">
+            <div class="container">
+                <div class="text-center">
+                     <h2 class="section-title reveal">Flexible Packages for Your Goals</h2>
+                </div>
+                <p class="text-center reveal delay-1" style="max-width: 800px; margin: -40px auto 60px auto;">
+                    Every project is unique. We provide custom quotes based on your specific needs. These packages are a starting point to help you understand what we can offer.
+                </p>
+                <div class="pricing-grid">
+                    <div class="pricing-card reveal">
+                        <div class="pricing-header">
+                            <i class="fas fa-rocket"></i>
+                            <h3>Launchpad</h3>
+                            <p>Perfect for new businesses & startups.</p>
+                        </div>
+                        <div class="price-tag">
+                            <h4>Custom Quote</h4>
+                        </div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> Custom 3-5 Page Website</li>
+                            <li><i class="fas fa-check"></i> Mobile-Responsive Design</li>
+                            <li><i class="fas fa-check"></i> Basic SEO Setup</li>
+                            <li><i class="fas fa-check"></i> Contact Form Integration</li>
+                            <li class="disabled"><i class="fas fa-times"></i> E-commerce Functionality</li>
+                            <li class="disabled"><i class="fas fa-times"></i> Advanced Ad Campaigns</li>
+                        </ul>
+                        <a href="#contact" class="cta-button-outline">Request a Quote</a>
+                    </div>
+
+                    <div class="pricing-card featured reveal delay-1">
+                        <div class="popular-badge">Most Popular</div>
+                        <div class="pricing-header">
+                            <i class="fas fa-briefcase"></i>
+                            <h3>Growth Engine</h3>
+                            <p>Ideal for established businesses looking to grow.</p>
+                        </div>
+                        <div class="price-tag">
+                            <h4>Custom Quote</h4>
+                        </div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> Custom 5-10 Page Website</li>
+                            <li><i class="fas fa-check"></i> E-commerce / Blog Setup</li>
+                            <li><i class="fas fa-check"></i> Advanced SEO & Analytics</li>
+                            <li><i class="fas fa-check"></i> Initial Google/Social Ad Campaign</li>
+                            <li><i class="fas fa-check"></i> CMS Integration (WordPress/Other)</li>
+                            <li class="disabled"><i class="fas fa-times"></i> Ongoing Ad Management</li>
+                        </ul>
+                        <a href="#contact" class="cta-button">Request a Quote</a>
+                    </div>
+
+                    <div class="pricing-card reveal delay-2">
+                        <div class="pricing-header">
+                            <i class="fas fa-building"></i>
+                            <h3>Apex Partnership</h3>
+                            <p>For large-scale projects & ongoing needs.</p>
+                        </div>
+                        <div class="price-tag">
+                            <h4>Custom Quote</h4>
+                        </div>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> Unlimited Pages & Custom Features</li>
+                            <li><i class="fas fa-check"></i> Full E-commerce & App Integration</li>
+                            <li><i class="fas fa-check"></i> Comprehensive SEO Strategy</li>
+                            <li><i class="fas fa-check"></i> Ongoing Ad Campaign Management</li>
+                            <li><i class="fas fa-check"></i> Dedicated Support & Maintenance</li>
+                            <li><i class="fas fa-check"></i> Monthly Performance Reports</li>
+                        </ul>
+                        <a href="#contact" class="cta-button-outline">Request a Quote</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="faq">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-title reveal">Frequently Asked Questions</h2>
+                </div>
+                <div class="faq-accordion">
+                    <div class="faq-item reveal">
+                        <button class="faq-question">
+                            <span>How long does it take to build a website?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>A typical website project takes between 4 to 8 weeks from start to finish. The exact timeline depends on the project's complexity, the number of pages, and the features required. We provide a detailed project timeline after our initial discovery call.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item reveal delay-1">
+                        <button class="faq-question">
+                            <span>How much does a new website cost?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>The cost varies based on your specific needs. Our "Launchpad" package is great for startups, while our "Growth Engine" and "Apex Partnership" packages cater to more established businesses with complex requirements. We provide a custom quote after understanding your project goals.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item reveal delay-2">
+                        <button class="faq-question">
+                            <span>Will I be able to update the website myself?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Absolutely. For many projects, we integrate a Content Management System (CMS) like WordPress, which allows you to easily update text, images, and blog posts without any coding knowledge. We provide full training on how to manage your new site.</p>
+                        </div>
+                    </div>
+                     <div class="faq-item reveal delay-3">
+                        <button class="faq-question">
+                            <span>Do you provide support after the website is launched?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes, we offer ongoing support and maintenance packages to ensure your website remains secure, up-to-date, and performing at its best. Our "Apex Partnership" plan includes dedicated support for your peace of mind.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta-bottom" class="cta-bottom">
+            <div class="container text-center">
+                <h2 class="reveal">Ready to Transform Your Business?</h2>
+                <p class="reveal delay-1">Don't just have an online presence—dominate it. Let's create something remarkable together.</p>
+                <a href="start-project.html" class="cta-button-alt reveal delay-2">Start Your Project Today <i class="fas fa-rocket"></i></a>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-title reveal">Get In Touch</h2>
+                </div>
+                <p class="text-center reveal delay-1">Have a question or a project in mind? We'd love to hear from you!</p>
+                <form name="submit-to-google-sheet" id="contact-form" class="reveal delay-2">
+                    <!-- Yeh hidden field script ko batata hai ki yeh 'contact' form hai -->
+                    <input type="hidden" name="form_type" value="contact">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="phone" placeholder="Your Phone Number (Optional)">
+                        <input type="text" name="subject" placeholder="Subject" required>
+                    </div>
+                    <textarea name="message" placeholder="Tell us about your project or question..." rows="6" required></textarea>
+                    <button type="submit" class="cta-button">Send Message <i class="fas fa-paper-plane"></i></button>
+                    <div id="form-message"></div>
+                </form>
+                <div class="contact-info text-center reveal delay-3">
+                    <p><i class="fas fa-map-marker-alt"></i> Gita Road, Indore, MP 452001, India</p>
+                    <p><i class="fas fa-envelope"></i> masterapexwebadservices@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91 87706 89120</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Master Apex<span class="logo-dot">.</span></h3>
+                    <p>Elevating businesses through expert web development and strategic digital advertising.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#process">Our Process</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <a href="https://whatsapp.com/channel/0029VbBMzH5I1rcZPHkEXO27" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://youtube.com/@masterapexwebadservices?si=brlvS-2w8sa96g8L" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/master_apex_wa?igsh=bnprZDVycjIxcWtq" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Master Apex Web & Ad Services. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts for 3D Background Animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.fog.min.js"></script>
+
+    <!-- Main custom script -->
+    <script src="script.js"></script>
+    
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/918770689120" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <!-- YouTube Floating Button -->
+    <a href="https://youtube.com/@masterapexwebadservices?si=brlvS-2w8sa96g8L" class="youtube-float" target="_blank">
+        <i class="fab fa-youtube"></i>
+    </a>
+</body>
+</html>
+

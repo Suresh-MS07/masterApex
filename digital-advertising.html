@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Advertising Campaigns - Master Apex Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': '#8A2BE2',
+                        'secondary': '#00E5EE',
+                        'dark-bg': '#111827',
+                        'surface': '#1F2937',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #111827;
+        }
+        #vanta-background {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+        .content-wrapper {
+            position: relative;
+            z-index: 1;
+            background-color: transparent;
+        }
+        .accent-underline {
+            background: linear-gradient(135deg, #8A2BE2 0%, #00E5EE 100%);
+        }
+        .logo-dot {
+             background: linear-gradient(90deg, #a78bfa, #5eead4);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .feature-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px -3px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body class="text-gray-300">
+
+    <div id="vanta-background"></div>
+    <div class="content-wrapper">
+        <!-- Header Section -->
+        <header class="bg-dark-bg/80 backdrop-blur-md sticky top-0 z-50 border-b border-white/10">
+            <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+                 <a href="index.html" class="text-2xl font-bold text-white">Master Apex<span class="logo-dot">.</span></a>
+                <nav class="hidden md:flex items-center space-x-8">
+                     <a href="index.html#services" class="text-gray-400 hover:text-secondary transition">Services</a>
+                     <a href="index.html#portfolio" class="text-gray-400 hover:text-secondary transition">Our Work</a>
+                     <a href="index.html#pricing" class="text-gray-400 hover:text-secondary transition">Pricing</a>
+                     <a href="index.html#testimonials" class="text-gray-400 hover:text-secondary transition">Testimonials</a>
+                </nav>
+                <a href="index.html#contact" class="bg-gradient-to-r from-primary to-secondary hover:opacity-90 text-white font-semibold py-2 px-5 rounded-lg transition">
+                    Get Started
+                </a>
+            </div>
+        </header>
+
+        <!-- Main Content: Service Details -->
+        <main>
+            <!-- Service Hero Section -->
+            <section class="py-20 md:py-32 text-center">
+                <div class="container mx-auto px-6">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white leading-tight">
+                        Data-Driven Digital Advertising
+                    </h1>
+                    <div class="w-24 h-1 accent-underline mx-auto mt-6 rounded"></div>
+                    <p class="mt-8 max-w-3xl mx-auto text-lg text-gray-400">
+                        We design and manage powerful advertising campaigns that reach your target audience, maximize your return on investment, and accelerate business growth.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Our Process Section -->
+            <section class="py-16 bg-surface">
+                <div class="container mx-auto px-6">
+                    <div class="text-center mb-12">
+                        <h2 class="text-3xl md:text-4xl font-bold text-white">Our Strategic Approach</h2>
+                        <p class="mt-4 text-gray-400">We follow a structured four-step process for every campaign to ensure maximum impact.</p>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+                        <!-- Step 1 -->
+                        <div class="feature-card bg-dark-bg p-8 rounded-lg border border-white/10">
+                            <i class="fas fa-magnifying-glass-chart text-4xl text-primary mb-4"></i>
+                            <h3 class="text-xl font-bold text-white mb-2">1. Research & Analysis</h3>
+                            <p class="text-gray-400">We delve deep into your market, competitors, and audience to build a data-backed advertising strategy.</p>
+                        </div>
+                        <!-- Step 2 -->
+                        <div class="feature-card bg-dark-bg p-8 rounded-lg border border-white/10">
+                            <i class="fas fa-bullhorn text-4xl text-primary mb-4"></i>
+                            <h3 class="text-xl font-bold text-white mb-2">2. Campaign Creation</h3>
+                            <p class="text-gray-400">We set up your campaigns and craft compelling ad copy and creatives that demand attention and convert.</p>
+                        </div>
+                        <!-- Step 3 -->
+                        <div class="feature-card bg-dark-bg p-8 rounded-lg border border-white/10">
+                            <i class="fas fa-sliders text-4xl text-primary mb-4"></i>
+                            <h3 class="text-xl font-bold text-white mb-2">3. Optimization</h3>
+                            <p class="text-gray-400">We continuously monitor performance, A/B test variables, and optimize for the best possible results and ROI.</p>
+                        </div>
+                        <!-- Step 4 -->
+                        <div class="feature-card bg-dark-bg p-8 rounded-lg border border-white/10">
+                            <i class="fas fa-chart-line text-4xl text-primary mb-4"></i>
+                            <h3 class="text-xl font-bold text-white mb-2">4. Reporting & Insights</h3>
+                            <p class="text-gray-400">Receive clear, transparent reports detailing performance, key metrics, and actionable insights for future growth.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Key Features Section -->
+            <section class="py-16">
+                 <div class="container mx-auto px-6">
+                    <div class="text-center mb-12">
+                        <h2 class="text-3xl md:text-4xl font-bold text-white">Our Advertising Capabilities</h2>
+                        <p class="mt-4 text-gray-400">We leverage a full suite of advertising services to grow your brand.</p>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                        <div class="flex items-start space-x-4">
+                            <i class="fas fa-check-circle text-2xl text-secondary mt-1"></i>
+                            <div>
+                                <h3 class="text-xl font-bold text-white">Keyword Research</h3>
+                                <p class="text-gray-400">Identifying the most profitable keywords to target customers actively seeking your solutions.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <i class="fas fa-check-circle text-2xl text-secondary mt-1"></i>
+                            <div>
+                                <h3 class="text-xl font-bold text-white">Compelling Ad Copy</h3>
+                                <p class="text-gray-400">Crafting persuasive and engaging ad copy that boosts click-through rates and drives action.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <i class="fas fa-check-circle text-2xl text-secondary mt-1"></i>
+                            <div>
+                                <h3 class="text-xl font-bold text-white">A/B Testing</h3>
+                                <p class="text-gray-400">Continuously testing ads, headlines, and creatives to improve performance and conversions.</p>
+                            </div>
+                        </div>
+                         <div class="flex items-start space-x-4">
+                            <i class="fas fa-check-circle text-2xl text-secondary mt-1"></i>
+                            <div>
+                                <h3 class="text-xl font-bold text-white">Audience Targeting</h3>
+                                <p class="text-gray-400">Reaching the right people at the right time with precise demographic and interest targeting.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <i class="fas fa-check-circle text-2xl text-secondary mt-1"></i>
+                            <div>
+                                <h3 class="text-xl font-bold text-white">Budget Management</h3>
+                                <p class="text-gray-400">Optimizing your ad spend to achieve the maximum return on your investment.</p>
+                            </div>
+                        </div>
+                         <div class="flex items-start space-x-4">
+                            <i class="fas fa-check-circle text-2xl text-secondary mt-1"></i>
+                            <div>
+                                <h3 class="text-xl font-bold text-white">Performance Tracking</h3>
+                                <p class="text-gray-400">Monitoring key metrics like CPA, CTR, and conversion rates to measure success.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+             <!-- CTA Section -->
+            <section class="py-20">
+                <div class="container mx-auto px-6 text-center">
+                     <h2 class="text-3xl md:text-4xl font-bold text-white">Ready to Launch High-Impact Ad Campaigns?</h2>
+                     <p class="mt-4 max-w-2xl mx-auto text-gray-400">Let's discuss how our targeted advertising strategies can help you reach your business objectives. Contact us for a free, no-obligation consultation.</p>
+                     <a href="index.html#contact" class="mt-8 inline-block bg-gradient-to-r from-primary to-secondary hover:opacity-90 text-white font-semibold py-3 px-8 rounded-lg transition">
+                        Get a Free Consultation
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="border-t border-white/10 bg-dark-bg">
+            <div class="container mx-auto px-6 py-6 text-center text-gray-400">
+                <p>&copy; 2025 Master Apex Web & Ad Services. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Scripts for 3D Background Animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.fog.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            try {
+                VANTA.FOG({
+                    el: "#vanta-background",
+                    mouseControls: true,
+                    touchControls: true,
+                    gyroControls: false,
+                    minHeight: 200.00,
+                    minWidth: 200.00,
+                    highlightColor: 0x8A2BE2,
+                    midtoneColor: 0x00E5EE,
+                    lowlightColor: 0x111827,
+                    baseColor: 0x111827,
+                    blurFactor: 0.6,
+                    speed: 1.2,
+                    zoom: 0.8
+                });
+            } catch (e) {
+                console.error("Vanta.js initialization failed:", e);
+            }
+        });
+    </script>
+</body>
+</html>
